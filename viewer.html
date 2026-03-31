@@ -67,7 +67,7 @@
 
     viewer.loadGUI(() => {
       viewer.setLanguage("ja");
-      viewer.toggleSidebar();
+      viewer.setSidebarVisibility(false);
     });
 
     Potree.loadPointCloud("./pointclouds/test/metadata.json", "test", e => {
